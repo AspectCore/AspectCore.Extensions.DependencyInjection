@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspectCore.Extensions.DependencyInjection", "AspectCore.Extensions.DependencyInjection\AspectCore.Extensions.DependencyInjection.csproj", "{08CAAC87-C455-496C-A0E4-399083019ADB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{1224A434-9BDE-4DEB-AA67-17BB87102020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection.Sample", "DependencyInjection.Sample\DependencyInjection.Sample.csproj", "{52A2F212-3474-4B69-9938-33132D7FA918}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08CAAC87-C455-496C-A0E4-399083019ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CAAC87-C455-496C-A0E4-399083019ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CAAC87-C455-496C-A0E4-399083019ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CAAC87-C455-496C-A0E4-399083019ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A2F212-3474-4B69-9938-33132D7FA918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A2F212-3474-4B69-9938-33132D7FA918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A2F212-3474-4B69-9938-33132D7FA918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A2F212-3474-4B69-9938-33132D7FA918}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52A2F212-3474-4B69-9938-33132D7FA918} = {1224A434-9BDE-4DEB-AA67-17BB87102020}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E31050BD-9572-48ED-95C3-55B5D4541B63}
+	EndGlobalSection
+EndGlobal
