@@ -1,12 +1,43 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard1.6</TargetFramework>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFrameworks>netstandard1.6;net451</TargetFrameworks>
+        <Description>Interceptor and dynamicProxy support for Microsoft.Extensions.DependencyInjection via AspectCore Framework. This package support to .Net Core 1.x and .NET Framework 4.5.1</Description>
+        <AssemblyTitle>AspectCore.Extensions.DependencyInjection</AssemblyTitle>
+        <AssemblyName>AspectCore.Extensions.DependencyInjection</AssemblyName>
+        <PackageId>AspectCore.Extensions.DependencyInjection.Backward</PackageId>
+        <PackageTags>DynamicProxy;Aop;DependencyInjection;AspectCore</PackageTags>
+        <PackageReleaseNotes>Interceptor and dynamicProxy support for Microsoft.Extensions.DependencyInjection via AspectCore Framework. This package support to .Net Core 1.x and .NET Framework 4.5.1</PackageReleaseNotes>
+        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="AspectCore.Core" Version="0.2.4" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="1.1.1" />
-  </ItemGroup>
+    <PropertyGroup>
+        <Authors>Lemon</Authors>
+        <Product>AspectCore Framework</Product>
+        <PackageIconUrl>https://avatars1.githubusercontent.com/u/19426425?v=3&amp;s=200</PackageIconUrl>
+        <PackageProjectUrl>https://github.com/AspectCore/AspectCore.Extensions.DependencyInjection</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/dotnetcore/AspectCore-Framework/blob/dev/LICENSE</PackageLicenseUrl>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/AspectCore/AspectCore.Extensions.DependencyInjection</RepositoryUrl>
+        <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+        <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+        <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+        <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+        <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <VersionPrefix>0.2.4</VersionPrefix>
+        <VersionSuffix>-beta1</VersionSuffix>
+        <Version>$(VersionPrefix)$(VersionSuffix)</Version>
+        <AssemblyVersion>$(VersionPrefix).0</AssemblyVersion>
+        <FileVersion>$(VersionPrefix).0</FileVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AspectCore.Core" Version="0.2.4" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="1.1.1" />
+    </ItemGroup>
+  
 
 </Project>
